@@ -4,7 +4,7 @@
 **A simple Unix command line interpreter**
 ![shell](/shell.png)
 
-****
+*****
 ## Table of contents
  - **What is the shell?**
  - **About this project**
@@ -15,7 +15,7 @@
  - **Example of Usage**
  - **Bugs**
  - **TEAM**
- ****
+ ******
 
 ## What is the shell?
 The shell is a program that takes commands from the keyboard via the terminal, and gives them to the operating system to perform.\
@@ -59,7 +59,7 @@ When you want to exit the shell, you can use one of the following methods:
 exit
 ````
 > **2: Press on Ctrl + D**
-
+''
 ## Example of Usage
 ````
 ubunto@ubuntu:~/Bureau/simple_shell$ gcc -Wall -Wextra -Werror -pedantic *.c -o hsh
@@ -86,5 +86,4 @@ ubunto@ubuntu:~/Bureau/simple_shell$
 ````
 ## Bugs
 No known Bugs.
-
 
