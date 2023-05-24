@@ -4,7 +4,7 @@
 **A simple Unix command line interpreter**
 ![shell](/shell.png)
 
-******
+*****
 ## Table of contents
  - **What is the shell?**
  - **About this project**
