@@ -7,7 +7,7 @@
 ***
 ## About this project
 This project is a simple version of the linux shell made for ALX SE
-It is created using the **C programming Language** and it can do many functionalities that a real shell does
+It is created using the **C programming Language** and it can do many functionalities that a real shell oes
 
 ## files
 buildin_function.c  
