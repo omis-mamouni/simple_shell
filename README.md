@@ -15,4 +15,8 @@ envUtils.c
 executive.c  
 get_buildin_func.c  
 get_path.c  
-hsh  parser.c  README.md  shell.c  shell.h  stringUtils2.c  stringUtils3.c  stringUtils4.c  stringUtils.c  Utils2.c  Utils.c.
+hsh  
+parser.c  
+shell.c  
+shell.h  
+stringUtils2.c  stringUtils3.c  stringUtils4.c  stringUtils.c  Utils2.c  Utils.c.
