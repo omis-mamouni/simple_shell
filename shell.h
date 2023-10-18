@@ -27,7 +27,7 @@ typedef struct Node_Struct
 	char *name;
 	char *value;
 	struct Node_Struct *next;
-} Node_environment;
+} env_Node;
 
 /**
  * struct buildin_struct - Struct build-in commands
@@ -71,7 +71,7 @@ char *_get_environment_variable(const char *name, char **e);
 int print_command_notFound_error(char *exe, char **av, int l);
 void exe_exit_cmd(int status, char **av, char *line, char **cmd);
 void ignore_cmnt(char *lineptr);
-void free_envNode_element(Node_environment *node);
+void free_envNode_element(env_Node *node);
 int replaceVar(char **args, char **e, int s);
 char **parse_line_command(char *lineptr);
 char *convertInteger(int n, int base, int upper_o_n);
@@ -79,7 +79,7 @@ char *convertInteger(int n, int base, int upper_o_n);
 /* Buildin functions */
 int env_rm(char *exe, int ac, char **as, char **e, int s, int l);
 int exit_ee(char *exe, int ac, char **as, char **e, int s, int l);
-int (*get_build_function(char *c))(char *x, int a, char **v, char **e, int s, int l);
+int (*GetBuild_f(char *c))(char *x, int a, char **v, char **e, int s, int l);
 
 
 

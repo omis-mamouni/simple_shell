@@ -8,14 +8,14 @@
  * Return: pointer to the new element
  */
 
-Node_environment *add_new_element_end(Node_environment **head, char *name, char *value)
+env_Node *add_new_element_end(env_Node **head, char *name, char *value)
 {
-	Node_environment *new;
-	Node_environment *current = *head;
+	env_Node *new;
+	env_Node *current = *head;
 
 	while (current && current->next != NULL)
 		current = current->next;
-	new = malloc(sizeof(Node_environment));
+	new = malloc(sizeof(env_Node));
 	if (!new)
 		return (NULL);
 	new->name = _strDuplicated(name);
@@ -46,7 +46,7 @@ Node_environment *add_new_element_end(Node_environment **head, char *name, char 
  * @node: a pointer to the node
  */
 
-void free_envNode_element(Node_environment *node)
+void free_envNode_element(env_Node *node)
 {
 	if (node->name)
 		free(node->name);
@@ -61,10 +61,10 @@ void free_envNode_element(Node_environment *node)
  * Return: the first element of the list
  */
 
-Node_environment *convert_environ_array_to_list(char **envp)
+env_Node *convert_environ_array_to_list(char **envp)
 {
 	char *var, *name, *value;
-	Node_environment *list = NULL;
+	env_Node *list = NULL;
 
 	while (*envp)
 	{

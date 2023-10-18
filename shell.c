@@ -34,7 +34,7 @@ int main(__attribute__((unused)) int argc, char **argv)
 			len = arrayLength(av);
 			if (len > 0)
 			{
-				p_func = get_build_function(av[0]);
+				p_func = GetBuild_f(av[0]);
 				if (p_func != NULL)
 				{
 					lvl++;

@@ -2,12 +2,12 @@
 
 
 /**
- * get_build_function - get build in function
+ * GetBuild_f - get build in function
  * @c: the giving command
  * Return: the associated function
  */
 
-int (*get_build_function(char *c))(char *x, int n, char **a, char **e, int s, int l)
+int (*GetBuild_f(char *c))(char *x, int n, char **a, char **e, int s, int l)
 {
 	buildin_commands b_in[] = {
 		{"exit", exit_ee},
