@@ -19,4 +19,9 @@ hsh
 parser.c  
 shell.c  
 shell.h  
-stringUtils2.c  stringUtils3.c  stringUtils4.c  stringUtils.c  Utils2.c  Utils.c.
+stringUtils2.c  
+stringUtils3.c  
+stringUtils4.c  
+stringUtils.c  
+Utils2.c  
+Utils.c.
