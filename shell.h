@@ -16,7 +16,7 @@
 extern char **environ;
 
 /**
- * struct Node_Struct - Struct environment variables
+ * struct Node_Struct - Struct environment variable
  * @name: the environment name
  * @value: the envirornment value
  * @next: a pointer to the next node
