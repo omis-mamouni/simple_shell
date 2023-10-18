@@ -1,2 +1,7 @@
 # simple_shell
-alx project
+# Simple Shell Project
+
+**A simple Unix command line interpreter**
+![shell]
+
+****
