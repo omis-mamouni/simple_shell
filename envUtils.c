@@ -2,7 +2,7 @@
 
 /**
  * add_new_element_end - add a new element at the end of the list
- * @head: a pointer to a pointers to environement vars
+ * @head: a pointer to a pointers to environement var
  * @name: name of  the element
  * @value: value of the element
  * Return: pointer to the new element
