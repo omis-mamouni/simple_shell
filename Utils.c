@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * printPromptString - prints the prompt string
+ * printPromptString - print the prompt string
  */
 void printPromptString(void)
 {
