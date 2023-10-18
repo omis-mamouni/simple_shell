@@ -21,11 +21,9 @@ shell.h
 stringUtils2.c  
 ddstringUtils3.c  
 stringUtils4.c  
-stringUtils.c  
+cd=
+tringUtils.c  
 Utils2.c  
 Utils.c
-
-:wq
-
 
 
