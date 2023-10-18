@@ -12,8 +12,8 @@ It is created using the **C programming Language** and it can do many functional
 ## files
 buildin_function.c  
 envUtils.c  
-EMdeERGhHHHHHc  c  H
-get_path.c  
+MM
+get_path.c 
 hsh  
 parser.c  
 shell.c  
