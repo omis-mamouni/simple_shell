@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _string_to_integer - convert a string to an integer
+ * _string_to_integer - convert string to integer
  * @s: string to convert
  * Return: int found or 0
  */
